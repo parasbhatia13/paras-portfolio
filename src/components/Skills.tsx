@@ -10,11 +10,12 @@ const Skills = () => {
         'React.js',
         'JavaScript (ES6+)',
         'TypeScript',
-        'HTML5 & CSS3',
+        'HTML5 & CSS',
         'Tailwind CSS',
         'Bootstrap',
         'Redux',
-        'Next.js'
+        'Next.js',
+        'Material UI'
       ],
     },
     {
@@ -26,7 +27,6 @@ const Skills = () => {
         'MongoDB',
         'Mongoose',
         'REST APIs',
-        'GraphQL',
         'JWT Authentication',
         'Socket.io'
       ],
@@ -40,9 +40,12 @@ const Skills = () => {
         'AWS',
         'Postman',
         'VS Code',
-        'Figma',
-        'Jest',
-        'Webpack'
+        'Webpack',
+        'Cursor.ai',
+        'ChatGPT',
+        'Gemini',
+        'Augment',
+        'Claude'
       ],
     },
   ];
@@ -147,13 +150,8 @@ const Skills = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'Python',
-              'Java',
               'MySQL',
-              'PostgreSQL',
-              'Redis',
-              'Nginx',
-              'Cypress',
+              'ShadCN',
               'Material-UI',
               'Sass/SCSS',
               'Babel',

@@ -5,65 +5,32 @@ import { ExternalLink, Github, Calendar, Tag } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Web Application',
-      description: 'A comprehensive e-commerce platform built with MERN stack featuring user authentication, product catalog, shopping cart, payment integration, and admin dashboard for inventory management.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Stripe API', 'JWT'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
+      title: 'Tradeecho.com',
+      description: 'Tradeecho is a trading analy cs pla orm for op on traders. It enables brokers to view real- me market data and analyze por olio performance by uploading or manually entering trades. I used Stripe as third-party integra on for subscrip on-based model and OpenAI API to analyze por olios and answer related ques ons. In this role, I manage client communica on and contribute to full-stack development.',
+      image: '/tradeecho.png',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Stripe API', 'Firebase Auth', 'Tailwind', 'AWS S3', 'Socket.io', 'Firebase Colud Messaging'],
+      liveDemo: 'https://tradeecho.com/',
       date: '2024',
       category: 'Full Stack',
     },
     {
-      title: 'Task Management System',
-      description: 'A collaborative task management application with real-time updates, team collaboration features, drag-and-drop interface, and progress tracking for enhanced productivity.',
-      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Express.js', 'Socket.io', 'MongoDB', 'JWT', 'Material-UI'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
+      title: 'Giverr',
+      description: 'Giverr is a social networking plaform that connects nonproﬁts with volunteers to promote real-world selﬂess engagement. I led the project solo, handling development and deployment end-to-end.',      
+      image: "/giver.png",
+      technologies: ['Next JS', 'Firestore', 'Firebase Auth', 'Google Map API', 'Firebase Storage'],
+      liveDemo: 'https://giveer.vercel.app/',
       date: '2024',
       category: 'Web App',
     },
     {
-      title: 'Social Media Dashboard',
-      description: 'A comprehensive analytics dashboard for social media management with data visualization, automated reporting, multi-platform integration, and performance metrics tracking.',
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Node.js', 'Chart.js', 'MongoDB', 'REST APIs', 'Bootstrap'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
-      date: '2023',
-      category: 'Dashboard',
-    },
-    {
-      title: 'Real Estate Platform',
-      description: 'A modern real estate platform with property listings, advanced search filters, virtual tours, integrated mapping functionality, and agent management system.',
-      image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title: 'Housiko',
+      description: 'Housiko is a property lis ng pla orm for the Australian market. It provides users with op ons to list, browse, and inquire about residen al proper es. I contributed to both frontend and backend development.',
+      image: '/housiko.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Google Maps API', 'Cloudinary', 'Express.js'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
+      liveDemo: 'https://housiko.com/hu',
       date: '2023',
       category: 'Web Platform',
-    },
-    {
-      title: 'Learning Management System',
-      description: 'An educational platform with course management, video streaming, progress tracking, interactive assignments, and student-teacher communication features.',
-      image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Express.js', 'MongoDB', 'AWS S3', 'Video.js', 'Socket.io'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
-      date: '2023',
-      category: 'Educational',
-    },
-    {
-      title: 'Weather Forecast Application',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, weather alerts, detailed meteorological data, and 7-day forecast functionality.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'OpenWeather API', 'Chart.js', 'Geolocation API', 'Tailwind CSS'],
-      liveDemo: 'https://github.com/parasbhatia',
-      github: 'https://github.com/parasbhatia',
-      date: '2022',
-      category: 'Web App',
-    },
+    }
   ];
 
   const containerVariants = {
@@ -174,42 +141,10 @@ const Projects = () => {
                     <ExternalLink size={16} className="mr-2" />
                     Live Demo
                   </motion.a>
-                  
-                  <motion.a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300"
-                    whileHover={{ scale: 1.05, y: -1 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <Github size={16} className="mr-2" />
-                    Code
-                  </motion.a>
                 </div>
               </div>
             </motion.div>
           ))}
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="text-center mt-16"
-        >
-          <motion.a
-            href="https://github.com/parasbhatia"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-gray-800 to-gray-900 dark:from-gray-700 dark:to-gray-800 text-white font-semibold rounded-full hover:shadow-lg transition-all duration-300"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Github size={20} className="mr-2" />
-            View More on GitHub
-          </motion.a>
         </motion.div>
       </div>
     </section>

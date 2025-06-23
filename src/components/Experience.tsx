@@ -5,45 +5,83 @@ import { Briefcase, Calendar, MapPin, ChevronRight } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'MERN Stack Developer',
-      company: 'Freelance',
-      location: 'Remote',
-      period: '2023 - Present',
-      type: 'Freelance',
+      title: 'Software Engineer L2',
+      company: 'Talentelgia Technologies PVT LTD',
+      location: 'India',
+      period: 'Feb 2025 - Present',
+      type: 'Full-time',
       description: [
-        'Developed and maintained multiple full-stack web applications using MERN stack technologies',
-        'Collaborated with clients to understand requirements and deliver custom solutions',
-        'Implemented responsive designs and optimized application performance for better user experience',
-        'Integrated third-party APIs and payment gateways for enhanced functionality',
-        'Provided ongoing maintenance and support for deployed applications'
+        'Leading the development of Tradeecho - a trading analytics platform used by option traders',
+        'Managing client communication and coordinating across web and admin development',
+        'Overseeing architecture and full-stack development using React.js, Node.js, and Next.js',
+        'Implementing authentication, dashboards, reports, and real-time data sync modules',
+        'Utilizing JIRA for project management and following agile methodology for iterative development'
       ],
-      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'HTML/CSS'],
+      technologies: ['React.js', 'Node.js', 'Next.js', 'JIRA', 'Socket.io', 'Firebase Cloud Messaging', 'AWS S3', 'Firebase Auth'],
       achievements: [
-        'Successfully delivered 15+ projects',
-        'Maintained 100% client satisfaction rate',
-        'Reduced application load times by 40%'
+        'Successfully led development of Tradeecho platform',
+        'Implemented comprehensive authentication system',
+        'Streamlined development workflow with agile practices'
       ],
     },
     {
-      title: 'Web Development Intern',
-      company: 'Tech Solutions Inc.',
-      location: 'Mumbai, India',
-      period: '2022 - 2023',
-      type: 'Internship',
+      title: 'Software Engineer L1',
+      company: 'Talentelgia Technologies PVT LTD',
+      location: 'India',
+      period: 'Jan 2024 - Jan 2025',
+      type: 'Full-time',
       description: [
-        'Assisted in developing responsive web applications using modern JavaScript frameworks',
-        'Collaborated with senior developers on various client projects',
-        'Participated in code reviews and learned best practices for clean code development',
-        'Gained hands-on experience with version control systems and agile development methodologies',
-        'Contributed to testing and debugging of web applications'
+        'Developed and maintained Giverr - a social platform for volunteer engagement',
+        'Built Talentelgia.com - the company\'s dynamic and SEO-optimized website',
+        'Gained deep expertise in Firebase, Next.js, and real-world application scaling',
+        'Actively contributed to project architecture and frontend/backend development',
+        'Ensured clean, maintainable code by adhering to best practices and code reviews'
       ],
-      technologies: ['React', 'JavaScript', 'HTML/CSS', 'Git', 'Bootstrap'],
+      technologies: ['Next.js', 'Firebase', 'Tailwind','SEO', 'Express', 'Node js', 'MongoDB' ,  'MySql'],
       achievements: [
-        'Completed 10+ feature implementations',
-        'Reduced bug reports by 25%',
-        'Received positive feedback from mentors'
+        'Successfully delivered Giverr platform',
+        'Optimized company website for SEO',
+        'Implemented scalable architecture'
       ],
     },
+    {
+      title: 'Junior Software Developer',
+      company: 'Talentelgia Technologies PVT LTD',
+      location: 'India',
+      period: 'Jan 2023 - Jan 2024',
+      type: 'Full-time',
+      description: [
+        'Collaborated with senior developers and team to understand project requirements and objectives',
+        'Actively contributed to codebase quality through code reviews and adherence to best practices',
+        'Effectively communicated with clients for project alignment and feedback',
+        'Conducted debugging, root cause analysis, and implemented solutions to resolve issues',
+        'Maintained comprehensive project records by documenting code, processes, and updates'
+      ],
+      technologies: ['React', 'Redux', 'Bootstrap'],
+      achievements: [
+        'Enhanced code quality through reviews',
+        'Improved project documentation',
+        'Resolved critical issues effectively'
+      ],
+    },
+    {
+      title: 'Software Intern',
+      company: 'Talentelgia Technologies PVT LTD',
+      location: 'India',
+      period: 'August 2022 - December 2022',
+      type: 'Internship',
+      description: [
+        'Gained hands-on experience in web development using Node/Express, React JS, MongoDB, and MySQL',
+        'Completed projects including an E-commerce website and an Attendance Management System',
+        'Gained valuable insights through mentorship and live project participation'
+      ],
+      technologies: ['Node.js', 'Express', 'React JS', 'MongoDB', 'MySQL'],
+      achievements: [
+        'Completed E-commerce website project',
+        'Built Attendance Management System',
+        'Successfully transitioned to full-time role'
+      ],
+    }
   ];
 
   const containerVariants = {

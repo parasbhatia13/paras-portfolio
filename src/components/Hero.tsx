@@ -133,9 +133,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             {[
-              { icon: Github, href: 'https://github.com/parasbhatia', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com/in/parasbhatia', label: 'LinkedIn' },
-              { icon: Mail, href: 'mailto:paras.bhatia@example.com', label: 'Email' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/paras-bhatia-15738a201/', label: 'LinkedIn' },
+              { icon: Mail, href: 'mailto:parasbhatia122@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

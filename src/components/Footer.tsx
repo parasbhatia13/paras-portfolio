@@ -11,18 +11,13 @@ const Footer = () => {
 
   const socialLinks = [
     {
-      icon: Github,
-      href: 'https://github.com/parasbhatia',
-      label: 'GitHub',
-    },
-    {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/parasbhatia',
+      href: 'https://www.linkedin.com/in/paras-bhatia-15738a201/',
       label: 'LinkedIn',
     },
     {
       icon: Mail,
-      href: 'mailto:paras.bhatia@example.com',
+      href: 'mailto:parasbhatia122@gmail.com',
       label: 'Email',
     },
   ];
@@ -128,20 +123,20 @@ const Footer = () => {
                   <p className="text-gray-300">
                     <span className="font-medium">Email:</span>
                     <br />
-                    <a href="mailto:paras.bhatia@example.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
-                      paras.bhatia@example.com
+                    <a href="mailto:parasbhatia122@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                      parasbhatia122@gmail.com
                     </a>
                   </p>
                   <p className="text-gray-300">
                     <span className="font-medium">Location:</span>
                     <br />
-                    Mumbai, India
+                    Mohali, India
                   </p>
                   <p className="text-gray-300">
                     <span className="font-medium">Phone:</span>
                     <br />
-                    <a href="tel:+919876543210" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
-                      +91 98765 43210
+                    <a href="tel:+918929008294" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                      +91 89290 08294
                     </a>
                   </p>
                 </div>

@@ -38,19 +38,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'paras.bhatia@example.com',
-      href: 'mailto:paras.bhatia@example.com',
+      value: 'parasbhatia122@gmail.com',
+      href: 'mailto:parasbhatia122@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 89290 08294',
+      href: 'tel:+918929008294',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Mumbai, India',
+      value: 'Mohali, India',
       href: '#',
     },
   ];
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/parasbhatia',
+      href: 'https://www.linkedin.com/in/paras-bhatia-15738a201/',
       color: 'hover:text-blue-600',
     },
     {

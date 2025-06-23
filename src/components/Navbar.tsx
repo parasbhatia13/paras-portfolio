@@ -20,8 +20,20 @@ const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      // Close mobile menu first
       setIsOpen(false);
+      // Add a small delay to allow the menu to close before scrolling
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: 'smooth' });
+        // Ensure the element is actually visible after scrolling
+        const navHeight = 64; // height of navbar (h-16 = 64px)
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - navHeight;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }, 300);
     }
   };
 
